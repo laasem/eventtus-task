@@ -1,0 +1,2 @@
+class Poll < Post
+end

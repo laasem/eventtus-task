@@ -24,7 +24,7 @@ users = User.create([
     }
   ])
 
-posts = Post.create([
+user_posts = UserPost.create([
     {
       text: 'Excepteur ut aliqua pariatur aute nostrud adipisicing anim enim officia reprehenderit eiusmod enim nostrud elit officia voluptate nulla incididunt.',
       image: '../../public/star.jpg',
@@ -34,7 +34,10 @@ posts = Post.create([
       text: 'Occaecat irure cupidatat consectetur ea dolor sunt dolore commodo ut nulla laborum aute aliquip veniam et sed duis ut sed magna aute magna irure exercitation sint.',
       image: '../../public/star.jpg',
       user_id: 2
-    },
+    }
+  ])
+
+polls = Poll.create([
     {
       text: 'Ea proident sed esse ullamco ut cillum exercitation in anim sed velit ullamco excepteur quis anim dolore in est ut id id exercitation fugiat.',
       image: '../../public/star.jpg',
